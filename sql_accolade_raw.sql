@@ -5,7 +5,7 @@
 DROP TABLE IF EXISTS ${gp_schema}.${gp_prefix}accolade_raw${gp_suffix};
 
 CREATE TABLE ${gp_schema}.${gp_prefix}accolade_raw${gp_suffix} AS (
-
+    
     --===========================================
     -- CTE : ident_kpep
     -- Extraction des identifiants KPEP valides à partir de la table de matching KRUP.
